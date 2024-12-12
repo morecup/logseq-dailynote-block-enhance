@@ -1,0 +1,24 @@
+{
+  "name": "logseq-dailynote-block-enhance",
+  "version": "1.0.0",
+  "description": "Enhance dailynote and embed block 🚀",
+  "main": "dist/index.html",
+  "author": "©morecup",
+  "license": "MIT",
+  "targets": {
+    "main": false
+  },
+  "default": "dist/index.html",
+  "scripts": {
+    "dev": "parcel ./index.html --public-url ./",
+    "build": "parcel build --public-url . --no-source-maps index.html"
+  },
+  "devDependencies": {
+    "@logseq/libs": "^0.0.6",
+    "parcel": "^2.9.3"
+  },
+  "logseq": {
+    "id": "logseq-dailynote-enhance-3La4Ps",
+    "icon": "./images.jpg"
+  }
+}
